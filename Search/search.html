@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../Styles/style.css" />
+  </head>
+
+  <body>
+    <header class="navbar-light">
+      <div class="container">
+        <table style="width: 100%">
+          <tr>
+            <td width="160px">
+              <img onclick="showHome()" src="../Images/Gardenia.png" class="logo" alt="" />
+            </td>
+            <td>
+              <div class="searchbar">
+                <input placeholder="What are you looking for?" type="text" id="searchInput" />
+                <button id="searchbtn">
+                  <svg
+                    class="aa-SubmitIcon"
+                    viewBox="0 0 24 24"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M16.041 15.856c-0.034 0.026-0.067 0.055-0.099 0.087s-0.060 0.064-0.087 0.099c-1.258 1.213-2.969 1.958-4.855 1.958-1.933 0-3.682-0.782-4.95-2.050s-2.050-3.017-2.050-4.95 0.782-3.682 2.050-4.95 3.017-2.050 4.95-2.050 3.682 0.782 4.95 2.050 2.050 3.017 2.050 4.95c0 1.886-0.745 3.597-1.959 4.856zM21.707 20.293l-3.675-3.675c1.231-1.54 1.968-3.493 1.968-5.618 0-2.485-1.008-4.736-2.636-6.364s-3.879-2.636-6.364-2.636-4.736 1.008-6.364 2.636-2.636 3.879-2.636 6.364 1.008 4.736 2.636 6.364 3.879 2.636 6.364 2.636c2.125 0 4.078-0.737 5.618-1.968l3.675 3.675c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </td>
+            <td>
+              <div
+                class="d-flex justify-content-end gap-3"
+                style="font-size: 14px"
+              >
+                <div class="d-flex gap-2 align-items-center">
+                  <img class="van" src="../Images/TruckIcon.png" />
+                  <span>Delivery Nationwide</span>
+                </div>
+                <select
+                  class="form-select-sm bg-transparent border-0"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected value="1">English</option>
+                  <option value="2">العربية</option>
+                  <option value="3">French</option>
+                </select>
+                
+                <a class="nav-link text-dark" href="login.html">
+                  <svg
+                    class="me-1 mb-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
+                    />
+                  </svg>
+                  Login
+                </a>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </header>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script></script>
+    <script src="../Scripts/main.js"></script>
+  </body>
+</html>

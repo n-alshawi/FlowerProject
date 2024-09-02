@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../Styles/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <p class="mb-1 fw-semibold text-muted">Filter by:</p>
+          <ul class="filter-menu list-unstyled">
+            <li data-target="all" class="activeFilter">
+              <input type="radio" id="1" checked name="filter" />
+              <label class="cursor-pointer" for="1">All</label>
+            </li>
+            <li data-target="cakes">
+              <input type="radio" id="2"  name="filter" />
+              <label class="cursor-pointer" for="2">Cakes</label>
+            </li>
+            <li data-target="flowers">
+              <input type="radio" id="3"  name="filter" />
+              <label class="cursor-pointer" for="3">Flowers</label>
+            </li>
+            <li data-target="gifts">
+              <input type="radio" id="4"  name="filter" />
+              <label class="cursor-pointer" for="4">Gifts</label>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-10"> 
+        <div class="row">
+          <div class="col-md-3" data-item="flowers">
+            <div
+              class="single-product cursor-pointer mb-60"
+              id="single-product"
+            >
+              <div class="product-img">
+                <img src="../Images/product-img1.avif" alt="" />
+                <div class="new-product">
+                  <span>New</span>
+                </div>
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR700</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="flowers">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img2.avif" alt="" />
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR900</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="flowers">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img3.avif" alt="" />
+                <div class="new-product">
+                  <span>New</span>
+                </div>
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR600</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="flowers">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img4.avif" alt="" />
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR900</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="flowers">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img5.avif" alt="" />
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR850</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="cakes">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img6.avif" alt="" />
+                <div class="new-product">
+                  <span>New</span>
+                </div>
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR900</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="cakes">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img7.avif" alt="" />
+                <div class="new-product">
+                  <span>New</span>
+                </div>
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR700</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="gifts">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img8.avif" alt="" />
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR900</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="gifts">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img9.avif" alt="" />
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR900</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="gifts">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img10.avif" alt="" />
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR800</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="cakes">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img11.avif" alt="" />
+                <div class="new-product">
+                  <span>New</span>
+                </div>
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR800</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" data-item="cakes">
+            <div class="single-product cursor-pointer mb-60">
+              <div class="product-img">
+                <img src="../Images/product-img12.avif" alt="" />
+              </div>
+              <div class="product-caption">
+                <h6>
+                  <a href="#" class="text-primary">Fashion item</a>
+                  <span class="price">SAR800</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+         
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script></script>
+    <script src="../Scripts/main.js" async defer></script>
+    <script src="../Scripts/result.js" async defer></script>
+  </body>
+</html>
